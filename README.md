@@ -46,7 +46,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ## Contribution & Feedback
-[Pull Requests](https://github.com/Artoria/ntempl/pulls)   
+[Pull Requests](https://github.com/Artoria/ntempl/pulls)   
+[Issues](https://github.com/Artoria/ntempl/issues)    
 [Gitter Room](https://gitter.im/ntempl/)    
 [GMail](mailto:pochioly2008@gmail.com)   
 [QQ](http://wpa.qq.com/msgrd?v=3&uin=297314126&site=qq&menu=yes)
