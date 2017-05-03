@@ -16,7 +16,7 @@ app.el('name').innerText = "Artoria";
 ```
 see, innerText is some old-fashioned thing you have already learned, natively dual-binding or non-dual-binding.
 ## Licence
-Copyright 2017 Artoria Seiran https://github.com/Artoria
+Copyright 2017 Artoria Seiran https://github.com/Artoria    
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
