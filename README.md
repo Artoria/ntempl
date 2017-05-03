@@ -17,7 +17,7 @@ app.el('name').innerText = "Artoria";
 see, innerText is some old-fashioned thing you have already learned, natively dual-binding or non-dual-binding.
 
 ## Other resources
-[Playground](https://jsfiddle.net/sanae/rod708su/18/)   
+[Playground](https://jsfiddle.net)   
 [Repository](https://github.com/Artoria/ntempl)   
 [Lens](http://hackage.haskell.org/package/lens)   
 
