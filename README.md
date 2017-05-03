@@ -24,7 +24,8 @@ see, innerText is some old-fashioned thing you have already learned, natively du
 
 ## Contribution & Feedback
 [Pull Requests](https://github.com/Artoria/ntempl/pulls)   
-[My Email](mailto:pochioly2008@gmail.com)   
+[GMail](mailto:pochioly2008@gmail.com)   
+[QQ](http://wpa.qq.com/msgrd?v=3&uin=297314126&site=qq&menu=yes)
 
 ## Donation
 [Buy me a coffee @ WeChat]https://wx.tenpay.com/f2f?t=AQAAAJ%2FXTNaHzjztqnoG92LKMn0%3D   
