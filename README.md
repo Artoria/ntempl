@@ -16,7 +16,7 @@ app.el('name').innerText = "Artoria";
 ```
 see, innerText is some old-fashioned thing you have already learned, natively dual-binding or non-dual-binding.
 
-a basic usage is:
+get, set and modify
 ```html
 <div id="#app">
   <div nt-id='name'>unnamed</div>
