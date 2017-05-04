@@ -27,7 +27,7 @@ see, innerText is some old-fashioned thing you have already learned, natively du
 ```
 
 ```js
-var app = ntapp(nt_q("#app"));
+var app = require('ntempl').app(document.querySelector("#app"));
 app.set({name: "Hello", age: 99});
 app.modify({name: x => x.toUpperCase()});
 console.log(app.get({name: 1}).name); // HELLO
