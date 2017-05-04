@@ -57,7 +57,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Donation
 Donation is well accepted to encourage my spare time in this work.    
 [Buy me a coffee @ WeChat](https://wx.tenpay.com/f2f?t=AQAAAJ%2FXTNaHzjztqnoG92LKMn0%3D)   
-[But me a coffee @ AliPay](https://qr.alipay.com/stx00116sbiivlnndhimz82)   
+[Buy me a coffee @ AliPay](https://qr.alipay.com/stx00116sbiivlnndhimz82)   
 
 
 
