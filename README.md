@@ -1,6 +1,6 @@
 # ntempl
 
-[![Join the chat at https://gitter.im/ntempl/Lobby](https://badges.gitter.im/ntempl/Lobby.svg)](https://gitter.im/ntempl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/ntempl.svg)](https://badge.fury.io/js/ntempl) [![dep](https://david-dm.org/Artoria/ntempl/status.svg)](https://david-dm.org/Artoria/ntempl)
+[![Join the chat at https://gitter.im/ntempl/Lobby](https://badges.gitter.im/ntempl/Lobby.svg)](https://gitter.im/ntempl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/ntempl.svg)](https://badge.fury.io/js/ntempl) [![dep](https://david-dm.org/Artoria/ntempl.svg)](https://david-dm.org/Artoria/ntempl)
 
 NTemplate is not a template framework, neither related with dual-binding.
 
