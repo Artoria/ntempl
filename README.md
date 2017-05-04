@@ -1,6 +1,6 @@
 # ntempl
 
-[![Join the chat at https://gitter.im/ntempl/Lobby](https://badges.gitter.im/ntempl/Lobby.svg)](https://gitter.im/ntempl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/ntempl/Lobby](https://badges.gitter.im/ntempl/Lobby.svg)](https://gitter.im/ntempl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/ntempl.svg)](https://badge.fury.io/js/ntempl)
 
 NTemplate is not a template framework, neither related with dual-binding.
 
