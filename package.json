@@ -1,0 +1,19 @@
+{
+  "name": "ntempl",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "artoriaseiran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artoria/ntempl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artoria/ntempl/issues"
+  },
+  "homepage": "https://github.com/artoria/ntempl#readme",
+  "description": ""
+}
