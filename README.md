@@ -13,7 +13,7 @@ a basic usage is:
 ```
 
 ```js
-var app = ntapp(document.querySelector("#app"));
+var app = require('ntempl').app(document.querySelector("#app"));
 app.el('name').innerText = "Artoria";
 ```
 see, innerText is some old-fashioned thing you have already learned, natively dual-binding or non-dual-binding.
