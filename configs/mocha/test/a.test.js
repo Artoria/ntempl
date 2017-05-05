@@ -16,11 +16,10 @@ describe('test', function(){
   });
 
   it('should work for set, get and modify', function(){
-    global.document.body.innerHTML = `<div id="app">
+    dom.window.document.body.innerHTML = `<div id="app">
       <div nt-id='name'>unnamed</div>
       <input nt-id='age' nt-default='value'>
     </div>`;
-    global.document = dom.window.document, global.window = document.window;
     var app = require('ntempl').app(nt.q("#app"));
     app.set({name: "Hello", age: 99});
     app.modify({name: x => x.toUpperCase()});
