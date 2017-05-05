@@ -69,9 +69,6 @@ Donation is well accepted to encourage my spare time in this work.
 [Buy me a coffee @ AliPay](https://qr.alipay.com/stx00116sbiivlnndhimz82)   
 
 
-## Playground
-
-<script async src="//jsfiddle.net/sanae/rod708su/23/embed/"></script>
 
 
 
