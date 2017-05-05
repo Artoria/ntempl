@@ -22,23 +22,22 @@ var NtApp = function(el){
   };
   app.s = function(value, name){
     name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
-    this.$root && (this.$root[name] = value);
+    (this.$root[name] = value);
   };
   
   app.g = function(name, fn){
     name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
-    fn = ((typeof fn === "function") ? fn : (function(x){return x;}));
-    console.log(name, this.$root, this.$root[name], fn(this.$root[name]))
-    return this.$root && fn(this.$root[name]);
+    fn = ((typeof fn === "function") ? fn : (function(x){return x;}
+    return fn(this.$root[name]);
   };
   
   app.m = function(mfunc, name){
     name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
-    if(this.$root){
+    
       var old = this.$root[name];
       this.$root[name] = mfunc(this.$root[name]);
       return old;
-     }
+     
   };
   
   app.modify = function(obj){
