@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "ruby coverall.rb"
   },
   "author": "artoriaseiran",
   "license": "MIT",
