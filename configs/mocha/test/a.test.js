@@ -22,11 +22,11 @@ describe('test', function(){
     var app = nt.app(nt.q("#app"));
     app.set({name: "Hello", age: 99});
     app.modify({name: x => x.toUpperCase()});
-    app.on('click', function(){ app.set({name: 'world'});
+    app.on('click', function(){ app.set({name: 'world'});});
     expect(app.get({name: 1}).name).to.eql("HELLO");
     var e = document.createEvent('MouseEvent'); 
     e.initEvent('click', false, false); 
     app.dispatchEvent(e); 
     expect(app.get({name: 1}).name).to.eql("world");
-  })
+  });
 })
