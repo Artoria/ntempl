@@ -20,6 +20,7 @@ describe('test', function(){
       <div nt-id='name'>unnamed</div>
       <input nt-id='age' nt-default='value'>
     </div>`);
+    global.document = dom.window.document, global.window = document.window;
     var app = require('ntempl').app(document.querySelector("#app"));
     app.set({name: "Hello", age: 99});
     app.modify({name: x => x.toUpperCase()});
