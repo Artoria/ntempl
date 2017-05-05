@@ -1,11 +1,15 @@
 var chai = require('chai');
 var expect = chai.expect;
 var jsdom = require('jsdom').JSDOM;
-var dom = new jsdom("<!DOCTYPE html><p>Hello world</p>");
+var dom = new jsdom(`<!DOCTYPE html><div id="#app">
+  <div nt-id='name'>unnamed</div>
+</div>`);
 global.document = dom.window.document, global.window = document.window;
-var ntapp = require('../../../index.js');
+var nt = require('../../../index.js');
 describe('test', function(){
   it('should work', function(){
-      expect(1).to.eql(1);
+    var app = nt.app(nt.q("#app"));
+    app.el('name').innerText = "Artoria";
+    expect(app.get({name: 1}).name).to.eql("Artoria");
   })
 })
