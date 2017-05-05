@@ -1,2 +1,0 @@
-require 'coverall'
-Coverall.wear!
