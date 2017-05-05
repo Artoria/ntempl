@@ -26,7 +26,7 @@ describe('test', function(){
     expect(app.get({name: 1}).name).to.eql("HELLO");
     var e = document.createEvent('MouseEvent'); 
     e.initEvent('click', false, false); 
-    app.dispatchEvent(e); 
+    app.$root.dispatchEvent(e); 
     expect(app.get({name: 1}).name).to.eql("world");
   });
 })
