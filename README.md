@@ -73,3 +73,8 @@ Donation is well accepted to encourage my spare time in this work.
 
 
 
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/Artoria/ntempl/badge.svg?style=beer-square)](https://beerpay.io/Artoria/ntempl)  [![Beerpay](https://beerpay.io/Artoria/ntempl/make-wish.svg?style=flat-square)](https://beerpay.io/Artoria/ntempl?focus=wish)
