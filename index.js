@@ -87,11 +87,11 @@ var NtApp = function(el){
   
 app.on = function(key, func){  this.$root.addEventListener(key, func); };
 var nt_Q = document.querySelector.bind(document);
-var nt_isHTMLElement = function(obj){
-  return !!({}).toString.call(obj).match(/\[object HTML.*Element\]/);
+var nt_isString = function(obj){
+  return !!({}).toString.call(obj).match(/\[object String\]/);
 };
 var ntapp = function(sel, par){
-  if(nt_isHTMLElement(sel)){
+  if(!nt_isHTMLElement(sel)){
      return new NtApp(sel);
   }else{
      var root = document.createElement("nt-root");
