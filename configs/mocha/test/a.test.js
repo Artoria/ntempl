@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 var jsdom = require('jsdom').JSDOM;
-var dom = new jsdom(`<!DOCTYPE html><div id="#app">
+var dom = new jsdom(`<!DOCTYPE html><div id="app">
   <div nt-id='name'>unnamed</div>
 </div>`);
 global.document = dom.window.document, global.window = document.window;
