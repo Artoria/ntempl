@@ -99,5 +99,6 @@ var ntapp = function(sel, par){
 };
  module.exports = {
      app: ntapp,
+     q: nt_Q,
  };
 })(this);
