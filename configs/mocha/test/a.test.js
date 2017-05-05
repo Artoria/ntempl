@@ -19,7 +19,7 @@ describe('test', function(){
       <div nt-id='name'>unnamed</div>
       <input nt-id='age' nt-default='value'>
     </div>`;
-    var app = require('ntempl').app(nt.q("#app"));
+    var app = nt.app(nt.q("#app"));
     app.set({name: "Hello", age: 99});
     app.modify({name: x => x.toUpperCase()});
     expect(app.get({name: 1}).name).to.eql("HELLO");
