@@ -86,7 +86,9 @@ var NtApp = function(el){
   };
   
 app.on = function(key, func){  this.$root.addEventListener(key, func); };
-var nt_Q = global.document.querySelector.bind(global.document);
+var nt_Q = function(obj){
+  return document.querySelector(obj);
+}
 var nt_isString = function(obj){
   return !!({}).toString.call(obj).match(/\[object String\]/);
 };
