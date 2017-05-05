@@ -6,7 +6,7 @@
     "test": "node ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --colors ./configs/mocha/**/*.test.js",
     "coverage": "cat ./coverage/lcov.info | coveralls",
     "dev": "echo 'OK'",
-    "build": "echo 'OK'",
+    "build": "echo 'OK'"
   },
   "author": "artoriaseiran",
   "license": "MIT",
