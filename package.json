@@ -7,7 +7,7 @@
     "coverage": "cat ./coverage/lcov.info | coveralls",
     "dev": "echo 'OK'",
     "build": "echo 'OK'",
-    "checkdir": "",
+    "checkdir": "echo 'OK'"
   },
   "author": "artoriaseiran",
   "license": "MIT",
