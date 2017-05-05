@@ -27,7 +27,7 @@ var NtApp = function(el){
   
   app.g = function(name, fn){
     name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
-    fn = ((typeof fn === "function") ? fn : (function(x){return x;}
+    fn = ((typeof fn === "function") ? fn : (function(x){return x;}));
     return fn(this.$root[name]);
   };
   
