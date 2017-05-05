@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "ruby coverall.rb"
+     "test": "node ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --colors ./configs/mocha/**/*.test.js",
+     "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "author": "artoriaseiran",
   "license": "MIT",
@@ -15,5 +16,10 @@
     "url": "https://github.com/artoria/ntempl/issues"
   },
   "homepage": "https://github.com/artoria/ntempl#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0"
+  }
 }
