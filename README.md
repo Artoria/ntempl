@@ -19,7 +19,7 @@ NTemplate is not a template framework, neither related with dual-binding.
 ## Getting Started
 a basic usage is:
 ```html
-<div id="#app">
+<div id="app">
   <div nt-id='name'>unnamed</div>
 </div>
 ```
@@ -32,7 +32,7 @@ see, innerText is some old-fashioned thing you have already learned, natively du
 
 *get, set and modify*
 ```html
-<div id="#app">
+<div id="app">
   <div nt-id='name'>unnamed</div>
   <input nt-id='age' nt-default='value'>
 </div>
