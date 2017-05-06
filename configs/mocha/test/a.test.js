@@ -20,8 +20,8 @@ describe('test', function(){
       <input nt-id='age' nt-default='value'>
     </div>`;
     var app = nt.app(nt.q("#app"));
-    app.set({name: "Hello", age: 99});
-    app.modify({name: x => x.toUpperCase()});
+    app.set({name: "Hello", age: 99, nothing: 5});
+    app.modify({name: x => x.toUpperCase(), nothing: (x) => 42});
     app.on('click', function(){ app.set({name: 'world'});});
     expect(app.get({name: 1}).name).to.eql("HELLO");
     var e = document.createEvent('MouseEvent'); 
@@ -41,6 +41,6 @@ describe('test', function(){
       <div></div>
     </div>`, document.body);
     app.set({name: "Hello", age: 99});
-    expect(app.get({name: 1}).name).to.eql("Hello");    
+    expect(app.get({name: 1, nothing: 5}).name).to.eql("Hello");    
   });
 })
