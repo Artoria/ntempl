@@ -21,18 +21,18 @@ var NtApp = function(el){
     return this.$namespace[name];
   };
   app.s = function(value){
-    var name = this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
+    var name = this.$root.getAttribute("nt-default") || "innerText";
     (this.$root[name] = value);
   };
   
   app.g = function(fn){
-    var name = this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
+    var name = this.$root.getAttribute("nt-default") || "innerText";
     fn = ((typeof fn === "function") ? fn : (function(x){return x;}));
     return fn(this.$root[name]);
   };
   
   app.m = function(mfunc){
-      var name = this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
+      var name = this.$root.getAttribute("nt-default") || "innerText";
       var old = this.$root[name];
       this.$root[name] = mfunc(this.$root[name]);
       return old;
