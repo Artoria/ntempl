@@ -38,7 +38,7 @@ describe('test', function(){
      var app = nt.app(`<div>
       <div nt-id='name'>unnamed</div>
       <input nt-id='age' nt-default='value'>
-    </div>`);
+    </div>`, document.body);
     app.set({name: "Hello", age: 99});
     expect(app.get({name: 1}).name).to.eql("HELLO");    
   });
