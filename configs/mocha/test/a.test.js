@@ -40,6 +40,6 @@ describe('test', function(){
       <input nt-id='age' nt-default='value'>
     </div>`, document.body);
     app.set({name: "Hello", age: 99});
-    expect(app.get({name: 1}).name).to.eql("HELLO");    
+    expect(app.get({name: 1}).name).to.eql("Hello");    
   });
 })
