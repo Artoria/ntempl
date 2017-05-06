@@ -33,4 +33,13 @@ describe('test', function(){
     app.modify({age: (x) => x * 2});
     expect(app.get({age: 1}).age).to.eql("198");
   });
+      
+  it('should work for fragment', function(){
+     var app = nt.app(`<div>
+      <div nt-id='name'>unnamed</div>
+      <input nt-id='age' nt-default='value'>
+    </div>`);
+    app.set({name: "Hello", age: 99});
+    expect(app.get({name: 1}).name).to.eql("HELLO");    
+  });
 })
