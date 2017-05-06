@@ -9,7 +9,7 @@ var NtApp = function(el){
     app.$children.push(sub_app);
     namespace = Object.assign(namespace, sub_app.$namespace);
   }
-  var id = el.getAttribute && el.getAttribute("nt-id");
+  var id = el.getAttribute("nt-id");
   if(id){ namespace[id] = el; }
   app.$namespace = namespace;
   app.$root.$app = app;
