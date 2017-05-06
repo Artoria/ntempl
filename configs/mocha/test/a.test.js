@@ -28,5 +28,9 @@ describe('test', function(){
     e.initEvent('click', false, false); 
     app.$root.dispatchEvent(e); 
     expect(app.get({name: x => x.toUpperCase()}).name).to.eql("WORLD");
+    app.set({age: 99});
+    expect(app.get({age: 1}).age).to.eql("99");
+    app.modify({age: (x) => x * 2});
+    expect(app.get({age: 1}).age).to.eql("198");
   });
 })
