@@ -27,6 +27,6 @@ describe('test', function(){
     var e = document.createEvent('MouseEvent'); 
     e.initEvent('click', false, false); 
     app.$root.dispatchEvent(e); 
-    expect(app.get({name: 1}).name).to.eql("world");
+    expect(app.get({name: x => x.toUpperCase()}).name).to.eql("WORLD");
   });
 })
