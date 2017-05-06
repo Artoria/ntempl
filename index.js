@@ -20,20 +20,19 @@ var NtApp = function(el){
   app.el = function(name){
     return this.$namespace[name];
   };
-  app.s = function(value, name){
-    name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
+  app.s = function(value){
+    var name = this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
     (this.$root[name] = value);
   };
   
-  app.g = function(name, fn){
-    name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
+  app.g = function(fn){
+    var name = this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
     fn = ((typeof fn === "function") ? fn : (function(x){return x;}));
     return fn(this.$root[name]);
   };
   
-  app.m = function(mfunc, name){
-    name = name || this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
-    
+  app.m = function(mfunc){
+      var name = this.$root.getAttribute && this.$root.getAttribute("nt-default") || "innerText";
       var old = this.$root[name];
       this.$root[name] = mfunc(this.$root[name]);
       return old;
@@ -64,7 +63,7 @@ var NtApp = function(el){
     });
     Object.keys(obj).forEach(function(key){
          if(self.el(key) && self.el(key).$app === self){
-            Object.assign(ret, {[key]: self.g(null, obj[key])});
+            Object.assign(ret, {[key]: self.g(obj[key])});
          }
     });
     return ret;
