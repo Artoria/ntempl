@@ -94,7 +94,7 @@ var ntapp = function(sel, par){
   if(!nt_isString(sel)){
      return new NtApp(sel);
   }else{
-     var root = global.document.createElement("nt-root");
+     var root = document.createElement("nt-root");
      root.innerHTML = sel;
      par.appendChild(root);
      return new NtApp(root);
