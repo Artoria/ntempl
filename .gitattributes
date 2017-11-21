@@ -1,1 +1,2 @@
-*.js dram
+*.js linguist-language=dram
+*.rb linguist-language=dram
