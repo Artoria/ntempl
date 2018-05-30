@@ -22,7 +22,7 @@ a basic usage is:
 <div id="app">
   <div nt-id='name'>unnamed</div>
 </div>
-```
+```  
 
 ```js
 var app = require('ntempl').app(document.querySelector("#app"));
