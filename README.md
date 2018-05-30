@@ -8,7 +8,7 @@ _  / / / /_ /  __/  / / / / /_  /_/ /  /
 ```
 
 [![Join the chat at https://gitter.im/ntempl/Lobby](https://badges.gitter.im/ntempl/Lobby.svg)](https://gitter.im/ntempl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![npm version](https://badge.fury.io/js/ntempl.svg)](https://badge.fury.io/js/ntempl) [![dep](https://david-dm.org/Artoria/ntempl.svg)](https://david-dm.org/Artoria/ntempl)
-[![travis-ci](https://travis-ci.org/Artoria/ntempl.svg?branch=master)](https://travis-ci.org/Artoria/ntempl) [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/Artoria/ntempl) [![Downloads](https://img.shields.io/github/downloads/artoria/ntempl/total.svg)](https://github.com/Artoria/ntempl/archive/master.zip)
+[![travis-ci](https://travis-ci.org/Artoria/ntempl.svg?branch=master)](https://travis-ci.org/Artoria/ntempl) [![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/Artoria/ntempl) [![Downloads](https://img.shields.io/github/downloads/artoria/ntempl/total.svg)](https://github.com/Artoria/ntempl/archive/master.zip)
 [![Coverage Status](https://coveralls.io/repos/github/Artoria/ntempl/badge.svg?branch=master)](https://coveralls.io/github/Artoria/ntempl?branch=master)
 
 [![MIT](https://img.shields.io/npm/l/ntempl.svg)](https://github.com/Artoria/ntempl)  
